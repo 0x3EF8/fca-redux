@@ -1,0 +1,49 @@
+{
+  "name": "fca-redux",
+  "version": "1.0.0",
+  "description": "A TypeScript rewrite of the Nero Facebook Client API.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.ts\"",
+    "test": "jest"
+  },
+  "keywords": [
+    "facebook",
+    "chat",
+    "api",
+    "typescript",
+    "fca"
+  ],
+  "author": "0x3EF8",
+  "license": "MIT",
+  "dependencies": {
+    "@types/lodash": "^4.17.21",
+    "axios": "^1.7.2",
+    "axios-cookiejar-support": "^5.0.2",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "deepdash": "^5.3.9",
+    "form-data": "^4.0.0",
+    "https-proxy-agent": "^7.0.6",
+    "lodash": "^4.17.21",
+    "mqtt": "^5.14.1",
+    "tough-cookie": "^4.1.4",
+    "websocket-stream": "^5.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/tough-cookie": "^4.0.5",
+    "@typescript-eslint/eslint-plugin": "^8.50.1",
+    "@typescript-eslint/parser": "^8.50.1",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^8.50.1"
+  }
+}

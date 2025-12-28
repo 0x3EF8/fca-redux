@@ -1,0 +1,6 @@
+node_modules/
+dist/
+bot.ts
+cookies.json
+.DS_Store
+*.log
